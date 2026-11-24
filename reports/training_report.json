@@ -1,0 +1,36 @@
+{
+  "dataset": "C:\\Users\\ADMIN\\Downloads\\ScamShield-AI\\data\\cleaned_sms.csv",
+  "split": {
+    "training_records": 4128,
+    "test_records": 1032,
+    "test_size": 0.2,
+    "stratified_by": "label",
+    "random_state": 42
+  },
+  "positive_class": "spam",
+  "best_model": "Linear SVM",
+  "metrics": [
+    {
+      "model": "Linear SVM",
+      "accuracy": 0.9864341085271318,
+      "precision": 0.9596774193548387,
+      "recall": 0.9296875,
+      "f1_score": 0.9444444444444444
+    },
+    {
+      "model": "Multinomial Naive Bayes",
+      "accuracy": 0.9651162790697675,
+      "precision": 1.0,
+      "recall": 0.71875,
+      "f1_score": 0.8363636363636363
+    },
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.9651162790697675,
+      "precision": 1.0,
+      "recall": 0.71875,
+      "f1_score": 0.8363636363636363
+    }
+  ],
+  "saved_pipeline": "C:\\Users\\ADMIN\\Downloads\\ScamShield-AI\\models\\scamshield_sms_pipeline.joblib"
+}

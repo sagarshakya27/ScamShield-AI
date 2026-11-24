@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+frontend/node_modules/
+frontend/dist/
+
+# Generated data products
+data/cleaned_sms.csv
+data/data_quality_report.json
